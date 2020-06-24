@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_orange_gradient"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.ChooseSignInActivity"
+    tools:showIn="@layout/activity_choose_sign_in">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_phone_num_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/round_white"
+            android:text="Phone Number Login"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/btn_name_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/round_white"
+            android:text="Name Login"
+            app:layout_constraintEnd_toStartOf="@+id/btn_phone_num_login" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

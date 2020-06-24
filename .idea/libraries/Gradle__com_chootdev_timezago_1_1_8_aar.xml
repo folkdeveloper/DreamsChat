@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.chootdev:timezago:1.1.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/timezago-1.1.8.aar/c6094e1f8757be7bd6ebc997155d546f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/timezago-1.1.8.aar/c6094e1f8757be7bd6ebc997155d546f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.chootdev/timezago/1.1.8/2a14936070c8aa2bf6cf4b4d62ba795a2d573205/timezago-1.1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_splash" />
+
+    <TextView
+        android:id="@+id/layout_splash_loading_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/animate_progress_bar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="Loading"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/animate_progress_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/layout_splash_loading_txt"
+        android:gravity="center_horizontal"
+        android:text=" . . ."
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_20sdp" />
+
+
+    <com.daasuu.ahp.AnimateHorizontalProgressBar
+        android:id="@+id/animate_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_above="@+id/app_name"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        app:ahp_backgroundColor="#6BC7F9"
+        app:ahp_progressColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_30sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_75sdp"
+        android:layout_marginBottom="@dimen/_35sdp"
+        android:text="Always Secure"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_10sdp" />
+
+</RelativeLayout>
